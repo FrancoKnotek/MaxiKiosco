@@ -1,0 +1,64 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.logo {
+    background-color: red;
+    margin-right: auto;
+    margin-top: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+.titulo {
+    background-color: yellow;
+    margin-right: auto;
+    margin-top: auto;
+    color: green;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.indice {
+    background-color: green;
+    margin-right: auto;
+    margin-top: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.cuerpo {
+    margin-top: auto;
+    margin-right: auto;
+    background-color: cyan;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.informacion {
+    margin-top: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    grid-column: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.pie {
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 5;
+}
