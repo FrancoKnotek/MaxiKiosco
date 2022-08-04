@@ -1,0 +1,72 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-top: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+.titulo {
+     margin-right: auto;
+    margin-top: 20%;
+    color: green;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.cuerpo {
+    margin-top: auto;
+    margin-right: auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   top: 20%;
+   left: 30%;
+}
+
+.informacion {
+    margin-top: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    grid-column: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.pie {
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 5;
+}
+.cuadro1{  
+    margin: 0;
+    position: fixed;
+   width: 27%;
+   height: 101vh;
+   margin-top: -1vw;
+   margin-left: -1vw;
+   background-color: black;
+   opacity: 0.8;
+
+
+   
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    background-color:#00D8AD  ;
+}
