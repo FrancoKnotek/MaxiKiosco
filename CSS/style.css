@@ -1,0 +1,133 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.Logo {
+    margin-left: 5vw;
+    margin-top: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+   
+    border-radius: 100px;
+    position: relative;
+}
+
+.titulo {
+     margin: auto;
+     margin-left: 5vw;
+     width: 40vw;
+     font-size: 4vw;
+    margin-top: 3vw;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.subtitle{
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.cuadro2{
+    height: 35vh;
+    width: 45vw;
+    background-color: transparent;
+    border:  2px solid black;
+    margin: auto;
+    margin-left: 40vw;
+    margin-top: -15vw;
+    position: fixed;
+    
+
+    
+
+}
+
+.cuerpo {
+    margin-top: auto;
+    width: 42vw;
+    margin-right: auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   top: 30%;
+   left: 35%;
+   font-size: 25px; 
+   
+  
+}
+
+.info{
+    margin-left: 2vw;
+    margin-top: -0.5vw;
+}
+
+.cuadroinfo{
+
+    height: 30vh;
+    width: 20vw;
+    background-color: rgba(145, 209, 236 , 0.80);
+    border-radius: 20px;
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 5vw;
+}
+
+.informacion {
+   
+    margin-top: auto;
+    margin-right: auto;
+    grid-column: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 20px;
+    position: relative;
+    margin-left: 1vw;
+}
+
+.pie {
+    height: 13vh;
+    width: 74%;
+    position: fixed;
+    background-color: orange;
+    margin-left: 26vw;
+    margin-top: 9.5vw;
+   
+}
+.cuadro1{  
+    margin: 0;
+    position: fixed;
+   width: 27%;
+   height: 101vh;
+   margin-top: -1vw;
+   margin-left: -1vw;
+   background-color: rgba(0, 0, 0 , 0.80);
+  
+
+
+   
+}
+
+.Contacto{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.data{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    background-color:#00D8AD  ;
+}
